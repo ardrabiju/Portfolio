@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Coiny&family=Croissant+One&family=Dancing+Script:wght@400;500;700&family=EB+Garamond&family=Fanwood+Text&family=Ibarra+Real+Nova&family=Lobster&family=Luckiest+Guy&family=Merriweather&family=Pacifico&family=Paytone+One&family=Playfair+Display&family=Righteous&family=Simonetta&family=Spectral:ital,wght@1,200;1,300&family=Vollkorn&family=Young+Serif&display=swap');
+
+
+body{
+    background-image: linear-gradient(270deg, #2f4f4f, #7dafc2);
+
+    /* background-image: linear-gradient(to right, rgb(89, 111, 133) , rgb(153, 167, 180)); */
+}
+.row{
+    max-width: 100%;
+}
+
+
+.a1{
+    height: 160px;
+    width: 160px;
+    border-radius: 150px;
+    background-color: rgba(47, 72, 98, 0.441);
+    position: relative;
+    
+}
+.a3{
+    height: 180px;
+    width: 116px;
+    position: absolute;
+    border-radius: 90px;
+    left: 20px;
+    top: -19px;
+    
+}
+.a4{
+    font-family: 'Kalam';
+    position: absolute;
+    left: 138px;
+    top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.71);
+    /* background: linear-gradient( 
+        to right, #004300, #b7abab, 
+         #2d2c2d, #600000); 
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; */
+}
+.a5{
+    font-size: 60px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.463);
+    font-family: 'Abril Fatface';
+}
+
+.a7{
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.553);
+}
+.a8{
+    font-family: 'EB Garamond';
+    color: rgba(0, 0, 0, 0.902);
+}
+.a9{
+    height: 40px;
+    width: 200px;
+    color: #7dafc2;
+    background-color: #2f4f4f;
+}
+.a11{
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.473);
+}
+.a12{
+
+    width: 100%;
+    background-color: #2f4f4f;
+}
+.a13{
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.553);
+}
+
+.a14{
+    color: #7dafc2;
+}
+.a15{
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.a16{
+    color: #7dafc2;;
+}
+.a17{
+    font-size: 20px;
+}
+.a18{
+    background-color: #7dafc2;
+}
+.a19{
+    font-size: 18px;
+}
+.progress{
+    width: 250px;
+    height: 20px;
+}
+.progress-bar{
+    font-weight: 500;
+    color: #2f4f4f;
+    background-color: #7dafc2;
+}
+.a21{
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.553);
+
+}
