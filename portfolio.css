@@ -122,6 +122,10 @@ body {
     color: #7dafc2;
     ;
 }
+.d2{
+    font-family: 'EB Garamond';
+
+}
 
 .a17 {
     font-size: 20px;
@@ -205,6 +209,7 @@ body {
 }
 
 .b4 {
+    font-family: 'EB Garamond';
     border-radius: 120px;
     height: 50px;
     width: 190px;
@@ -224,6 +229,7 @@ body {
 }
 
 .b7 {
+    font-family: 'EB Garamond';
     width: 85px;
     height: 32px;
     background-color: #2f4f4f;
@@ -235,6 +241,10 @@ body {
     font-weight: bold;
     color: #2f4f4f;
     font-style: italic;
+}
+
+.d1{
+    font-family: 'EB Garamond';
 }
 
 @keyframes anim {
