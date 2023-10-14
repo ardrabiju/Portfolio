@@ -11,11 +11,14 @@
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./portfolio.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg" style="background-color:whitesmoke;">
+  <nav class="navbar navbar-expand-lg" style="background-color: #7dafc2;">
     <div class="container">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,16 +35,28 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link text-dark">COURSES</a>
+            <a class="nav-link text-dark" href="#simple-list-item-3">EDUCATION</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark">OUR PLACEMENTS</a>
+            <a class="nav-link text-dark" href="#simple-list-item-4">INTERNSHIPS</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark">GALLERY</a>
+          <!-- <li class="nav-item">
+            <a class="nav-link text-dark" href="#simple-list-item-5">PROJECTS</a>
+          </li> -->
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+              aria-expanded="false">PROJECTS</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#scrollspyHeading1">PROJECT 1</a></li>
+              <li><a class="dropdown-item" href="#scrollspyHeading2">PROJECT 2</a></li>
+              <!-- <li><hr class="dropdown-divider"></li> -->
+              <li><a class="dropdown-item" href="#scrollspyHeading3">PROJECT 3</a></li>
+            </ul>
           </li>
+
           <li class="nav-item">
-            <a class="nav-link text-dark">CONTACT</a>
+            <a class="nav-link text-dark" href="#simple-list-item-6">CONTACT</a>
           </li>
         </ul>
       </div>
@@ -62,9 +77,9 @@
     <p class="a5 pt-2 text-center">ARDRA BIJU</p>
   </div>
 
-<div class="a10 text-center">
-  <p class="a11">"B.Tech Graduate -  I merge the art of technology with the symphony of creativity"</p>
-</div>
+  <div class="a10 text-center">
+    <p class="a11">"B.Tech Graduate - I merge the art of technology with the symphony of creativity"</p>
+  </div>
 
 
   <div class="row p-5">
@@ -72,81 +87,221 @@
       <p id="simple-list-item-1" class="text-center pt-2 a7">ABOUT ME</p>
     </div>
     <div class="a8 col-lg-6 border-start">
-      <p class="ps-4">Welcome to the digital realm of innovation and creativity! I'm here to weave your online dreams into reality.
+      <p class="ps-4">Welcome to the digital realm of innovation and creativity! I'm here to weave your online dreams
+        into reality.
         With a creative heart and a coding mind, I craft websites that not only look exceptional but also function
         flawlessly. Let's embark on a journey of coding, design, and endless possibilities together. Get ready to
         elevate your online presence to new heights. Dive into my portfolio and explore a world of innovation, design,
         and seamless interactivity. Together, we can turn your digital dreams into reality.
         <br> <br>
-        <button class="a9">DOWNLOAD RESUME</button>
-      </p>
+
+        <button class="a9 btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
+          aria-controls="offcanvasWithBothOptions">DOWNLOAD RESUME</button>
+
+      <div class="a41 offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+        aria-labelledby="offcanvasWithBothOptionsLabel">
+        <div class="offcanvas-header pe-4">
+          <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">DOWNLOADING <div class="spinner-border"
+              role="status">
+              <span class="ps-4 visually-hidden">Loading...</span>
+            </div>
+          </h5>
+        </div>
+        <div class="offcanvas-body">
+          <p>Download is currently in progress. Kindly await its completion. Thank you for your patience.</p>
+        </div>
       </div>
+
+
+      <!-- <button class="a9">DOWNLOAD RESUME</button> -->
+      </p>
+    </div>
   </div>
 
   <div class="text-center a12">
     <div id="simple-list-item-2" class="a13 pt-2">SKILLS</div>
-      
-       <div class="row text-center px-5 pt-2">
-         <div class="col-lg-3 col-md-3">
-           <div>
-            <div class="mt-4 progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar" style="width: 90%">C</div>
-            </div>
-           </div>
-           <div>
-            <div class="mt-4 progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar" style="width: 75%">JavaScript</div>
-            </div>
-           </div>
 
-         </div>
-  
-         <div class="col-lg-3 col-md-3">
-          <div>
-           <div class="mt-4 progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-             <div class="progress-bar" style="width: 65%">Express</div>
-           </div>
+    <div class="row text-center px-5 pt-2">
+      <div class="col-lg-3 col-md-3">
+        <div>
+          <div class="mt-4 progress" role="progressbar" aria-label="Success example" aria-valuenow="25"
+            aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 90%">C</div>
           </div>
-          <div>
-            <div class="mt-4 progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar" style="width: 65%">Angular</div>
-            </div>
-           </div>
-
+        </div>
+        <div>
+          <div class="mt-4 progress" role="progressbar" aria-label="Success example" aria-valuenow="25"
+            aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 75%">JavaScript</div>
+          </div>
         </div>
 
-        <div class="col-lg-3 col-md-3">
-          <div>
-           <div class="mt-4 progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-             <div class="progress-bar" style="width: 65%">React</div>
-           </div>
-          </div>
-          <div>
-            <div class="mt-4 progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar" style="width: 60%">Node</div>
-            </div>
-           </div>
+      </div>
 
+      <div class="col-lg-3 col-md-3">
+        <div>
+          <div class="mt-4 progress" role="progressbar" aria-label="Success example" aria-valuenow="25"
+            aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 65%">Express</div>
+          </div>
+        </div>
+        <div>
+          <div class="mt-4 progress" role="progressbar" aria-label="Success example" aria-valuenow="25"
+            aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 65%">Angular</div>
+          </div>
         </div>
 
-        <div class="col-lg-3 col-md-3">
-          <div>
-           <div class="mt-4 progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-             <div class="progress-bar" style="width: 70%">Mongo DB</div>
-           </div>
+      </div>
+
+      <div class="col-lg-3 col-md-3">
+        <div>
+          <div class="mt-4 progress" role="progressbar" aria-label="Success example" aria-valuenow="25"
+            aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 65%">React</div>
           </div>
-          <div>
-            <div class="mt-4 mb-5 progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar" style="width: 90%">Data Structures</div>
-            </div>
-           </div>
         </div>
+        <div>
+          <div class="mt-4 progress" role="progressbar" aria-label="Success example" aria-valuenow="25"
+            aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 60%">Node</div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-lg-3 col-md-3">
+        <div>
+          <div class="mt-4 progress" role="progressbar" aria-label="Success example" aria-valuenow="25"
+            aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 70%">Mongo DB</div>
+          </div>
+        </div>
+        <div>
+          <div class="mt-4 mb-5 progress" role="progressbar" aria-label="Success example" aria-valuenow="25"
+            aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 90%">Data Structures</div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-  
+
+  <div class="row">
+    <div class="col-lg-6 col-md-6">
+      <div>
+        <p id="simple-list-item-3" class="text-center pt-4 a22">EDUCATION</p>
+        <div pt-3>
+          <P class="a23 ps-4"> Completed B.Tech in Computer Science and Engineering from Sree Narayana Gurukulam College
+            of Engineering, Kadayiruppu
+          </P>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6 col-md-6">
+      <p id="simple-list-item-4" class="text-center pt-4 a24">INTERNSHIPS</p>
+      <div pt-3>
+
+        <ul class="border-start border-2">
+          <li>
+            <P class="a26 ps-2"> Completed Internship in Web-Development from PCPL, Muvattupuzha
+            </P>
+          </li>
+          <li>
+            <P class="a26 ps-2"> Completed Internship in Python from Kites, Palarivattom
+            </P>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="a27 pb-5">
+    <div id="simple-list-item-5" class="text-center a30 pt-4">PROJECTS</div>
+    <br>
+    <div class="b1 w-75 container">
+      <div class="p-2">
+        <p id="scrollspyHeading1" class="b2 text-start border-bottom border-2">PROJECT 1</p>
+      </div>
+      <div>
+        <p class="b3">Done a project in Web App Development for waste management system. The primary goal of this
+          project is to
+          develop a web application. It is a free open source application that attracts more customers of all categories
+          by providing a platform for waste management. As a concern to the dilemmas faced by the employees of this
+          sector, we propose a system which eases the workload of employees </p>
+      </div>
+      <div class="pb-2">
+        <button class="b4">Explore My Work</button>
+      </div>
+
+    </div>
+    <br>
+
+    <div class="b1 w-75 container">
+      <div class="p-2">
+        <p id="scrollspyHeading2" class="b2 text-start border-bottom border-2">PROJECT 2</p>
+      </div>
+      <div>
+        <p class="b3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, harum? Perferendis, accusantium
+          provident numquam cupiditate impedit laudantium earum tempora. Officia, magnam dolorum optio quidem repellat
+          eveniet id accusamus quod culpa? Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam cupiditate
+          nostrum cumque inventore, pariatur, sed molestias, laboriosam fugiat dolores provident enim. Amet est ea ab
+          iure culpa hic labore dignissimos. </p>
+      </div>
+      <div class="pb-2">
+        <button class="b4">Explore My Work</button>
+      </div>
+
+    </div>
+
+    <br>
+
+    <div class="b1 w-75 container">
+      <div class="p-2">
+        <p id="scrollspyHeading3" class="b2 text-start border-bottom border-2">PROJECT 3</p>
+      </div>
+      <div>
+        <p class="b3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sit, dignissimos ad,
+          adipisci deleniti cum beatae, quia nostrum similique ex laudantium cupiditate amet illo consectetur? Magnam
+          harum eligendi est explicabo. </p>
+      </div>
+      <div class="pb-2">
+        <button class="b4">Explore My Work</button>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="b5">
+    <p id="simple-list-item-6" class="text-center b6">GET IN TOUCH</p>
+    <div>
+      <!-- <input type="text" placeholder="Name" class="form-control" style="border: 0px;"> -->
+      <input type="text" placeholder="Name" class="w-25 container text-center border-bottom form-control"
+        style="border: 0px; background-color: #7dafc2;">
+
+      <input type="text" placeholder="E-Mail" class="w-25 container text-center border-bottom form-control"
+        style="border: 0px; background-color: #7dafc2;">
+      <textarea name="" placeholder="Message" class="w-25 container text-center border-bottom form-control" cols="30"
+        rows="7" style="border: 0px; background-color: #7dafc2;"></textarea>
+
+      <div class="pt-3 text-center">
+        <button class="b7">Send</button>
+      </div>
+    </div>
+    <div class="pt-3">
+      <p class="b8 text-center">OR</p>
 
 
+      <p class="b8 text-center">FOLLOW ME ON</p>
 
+      <div class="text-center pb-5">
+        <i class="i1 fa-2x fa-brands fa-linkedin" style="color: #0707079c;"></i>
+        <i class="i2 ps-4 fa-2x fa-brands fa-instagram" style="color: #00000090;"></i>
+        <i class="i3 ps-4 fa-2x fa-brands fa-facebook" style="color: #01081388;"></i>
+      </div>
+
+    </div>
+  </div>
 
 
 
