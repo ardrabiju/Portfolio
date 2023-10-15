@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Coiny&family=Croissant+One&family=DM+Serif+Display&family=Dancing+Script:wght@400;500;700&family=EB+Garamond&family=Fanwood+Text&family=Forum&family=Ibarra+Real+Nova&family=Lobster&family=Luckiest+Guy&family=Merriweather&family=Pacifico&family=Paytone+One&family=Playfair+Display&family=Righteous&family=Simonetta&family=Spectral:ital,wght@1,200;1,300&family=Vollkorn&family=Young+Serif&display=swap');
 
 body {
-    background-image: linear-gradient(270deg, #2f4f4f, #7dafc2);
-
-    /* background-image: linear-gradient(to right, rgb(89, 111, 133) , rgb(153, 167, 180)); */
+    /* background-image: linear-gradient(270deg, #2f4f4f, #7dafc2); */
+background-color: #eae3db;
 }
 
 .row {
@@ -17,7 +16,8 @@ body {
     height: 160px;
     width: 160px;
     border-radius: 150px;
-    background-color: rgba(47, 72, 98, 0.441);
+    background-color: #e8d4bc;
+    /* background-color: rgba(47, 72, 98, 0.441); */
     position: relative;
 
 }
@@ -73,8 +73,8 @@ font-family: 'Cormorant';
 .a9 {
     height: 40px;
     width: 200px;
-    color: #7dafc2;
-    background-color: #2f4f4f;
+    color: rgba(0, 0, 0, 0.699);
+    background-color: #cbb69fb7;
 }
 
 .a11 {
@@ -83,9 +83,9 @@ font-family: 'Cormorant';
 }
 
 .a12 {
-
+    background-color: #cbb69fb7;
     width: 100%;
-    background-color: #2f4f4f;
+    /* background-color: #2f4f4f; */
 }
 
 .a13 {
@@ -93,7 +93,7 @@ font-family: 'Cormorant';
     font-family: 'Cormorant';
     font-size: 40px;
     font-weight: 500;
-    color: #7dafc2;
+    color: rgba(0, 0, 0, 0.553);
 }
 
 .a30 {
@@ -101,7 +101,8 @@ font-family: 'Cormorant';
     font-family: 'Cormorant';
     font-size: 40px;
     font-weight: 500;
-    color:#7dafc2;
+    color: rgba(0, 0, 0, 0.553);
+
 }
 
 .a14 {
@@ -118,16 +119,30 @@ font-family: 'Cormorant';
     color: #7dafc2;
     ;
 }
+
+.f1{
+    
+    height: 120px;
+    width: 180px;
+}
+
 .d2{
     font-size: 13px;
     font-family: 'Forum';
-    color: #7dafc2;
+    color: rgba(0, 0, 0, 0.753);
+
 }
 .d3{
     font-size: 13px;
-    background-color: #2f4f4f;
+    background-color: #cbb69fb7;
+
+    /* background-color: #2f4f4f; */
     font-family: 'Forum';
-    color: #7dafc2;
+    color: rgba(0, 0, 0, 0.753);
+}
+.e3{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.753);
 }
 
 .a17 {
@@ -149,8 +164,8 @@ font-family: 'Cormorant';
 
 .progress-bar {
     font-weight: 500;
-    color: #2f4f4f;
-    background-color: #7dafc2;
+    color:#eae3db;
+    background-color:rgba(0, 0, 0, 0.553);
 }
 
 .a21 {
@@ -166,6 +181,9 @@ font-family: 'Cormorant';
     font-family: 'Cormorant';
     font-weight: 500;
     color: rgba(0, 0, 0, 0.553);
+}
+.f2{
+    background-color: #eae3db;
 }
 
 .a23,
@@ -184,18 +202,19 @@ font-family: 'Cormorant';
 
 .a27 {
     width: 100%;
-    background-color: #2f4f4f;
+    background-color: #cbb69fb7;
+    /* background-color: #2f4f4f; */
 
 }
 
 .b1 {
     color: #2f4f4f;
-    border: 1px dashed #7daec276;
+    border: 1px dashed rgba(0, 0, 0, 0.553);
 }
 
 .b2 {
     font-family: 'Cormorant';
-    color: #7dafc2;
+    
     font-size: 25px;
     font-weight: bold;
 }
@@ -207,7 +226,7 @@ font-family: 'Cormorant';
 .b3 {
     text-align: justify;
     font-family: 'EB Garamond';
-    color:#7dafc2;
+    color: rgba(0, 0, 0, 0.902);
     font-size: 15px;
 }
 
@@ -216,11 +235,11 @@ font-family: 'Cormorant';
     border-radius: 120px;
     height: 50px;
     width: 190px;
-    color: #2f4f4f;
-    background-color: #7daec2a4;
+    color:  rgba(0, 0, 0, 0.553);;
+    background-color: #eae3db;
 }
 .b22{
-    background-color: #2f4f4f;;
+    background-color:#cbb69fb7;
 }
 
 .b5 {
@@ -238,8 +257,8 @@ font-family: 'Cormorant';
     font-family: 'EB Garamond';
     width: 85px;
     height: 32px;
-    background-color: #2f4f4f;
-    color: #7dafc2;
+    background-color:#e8d4bc;
+    color: rgba(0, 0, 0, 0.79);
 }
 
 .b8 {
@@ -247,13 +266,16 @@ font-family: 'Cormorant';
     font-size: 25px;
     font-family: 'Cormorant';
     font-weight: 500;
-    color: #7dafc2;
+    color: rgba(0, 0, 0, 0.553);
 }
 
 .d1{
     font-family: 'EB Garamond';
 }
 
+.e1{
+text-decoration: none;
+}
 
 @keyframes anim {
     0% {
@@ -316,8 +338,9 @@ font-family: 'Cormorant';
 }
 
 .b7:hover {
-    background-color: #7dafc2;
-    color: #2f4f4f;
+    background-color: #cbb69fb7;
+    color:rgba(0, 0, 0, 0.553);
+    font-weight: 570;
 }
 
 .i1:hover {
@@ -345,8 +368,9 @@ font-family: 'Cormorant';
 }
 
 .b4:hover {
-    background-color: #7dafc2;
-    color: #2f4f4f;
+    background-color: #cbb69fb7;
+    color:rgba(0, 0, 0, 0.553);
+    font-weight: 570;
 }
 
 .a41 {
@@ -355,6 +379,8 @@ font-family: 'Cormorant';
 }
 
 .a9:hover {
-    background-color: #7dafc2;
-    color: #2f4f4f;
+    border: 1px solid black;
+    background-color:#eae3db;
+    color:rgba(0, 0, 0, 0.553);
+    font-weight: 570;
 }
